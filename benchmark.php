@@ -45,13 +45,13 @@ class Benchmark {
       ob_end_clean();
     }
 
+    $end_time = microtime(TRUE);
+
     // Set the $longest_value to the largest key in the array for pretty
     // formatting.
     if (strlen($name) > $this->longest_value) {
       $this->longest_value = strlen($name);
     }
-
-    $end_time = microtime(TRUE);
 
     // Tack on the results to the existing array.
     $this->results += array(
