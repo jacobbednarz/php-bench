@@ -47,9 +47,9 @@ Expected output:
 ```
 $ php benchmark.php
 
-IDENTIFIER    EXECUTION TIME
-foo           0.00003099ms
-foo2          0.00000906ms
+IDENTIFIER    EXECUTION TIME    MEMORY USAGE
+foo           0.00003099ms      128b
+foo2          0.00000906ms      128b
 ```
 
 ### Set the iterations
